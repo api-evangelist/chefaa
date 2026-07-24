@@ -1,7 +1,20 @@
 aid: chefaa
 name: Chefaa
-description: Chefaa is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Chefaa is Egypt's leading digital pharmacy and pharmacy-benefits platform,
+  founded in 2017 and headquartered in Cairo. Its GPS-enabled, AI-powered
+  consumer app connects more than 1.5 million monthly users with a nationwide
+  network of over 1,500 partner pharmacies, letting patients upload, order,
+  schedule, and refill both insured and non-insured prescriptions with home
+  delivery, medication reminders, and pharmacist chat support. On the B2B side
+  Chefaa operates a full-stack supply layer for pharmacies and corporates —
+  including Chefaa Supply (direct procurement with deferred payment and
+  consolidated delivery) and the Makhazen pharmacy-supply app — plus the Chefaa
+  Prime subscription for SMEs and consumers. Chefaa is a 500 Global portfolio
+  company. This profile is maintained by the API Evangelist network; Chefaa
+  publishes consumer and B2B web/mobile products but does not expose a public
+  developer API program, so the enrichment below is limited to its public web,
+  security, and domain surface.
 url: https://raw.githubusercontent.com/api-evangelist/chefaa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +22,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://chefaa.com/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Pharmacy
+- Healthcare
+- Digital Health
+- Pharmacy Benefits
+- E-Commerce
+- Delivery
+- Egypt
+- Middle East
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +54,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: WellKnown
+  url: well-known/chefaa-well-known.yml
+- type: SecurityTxt
+  url: well-known/chefaa-security.txt
+- type: VulnerabilityDisclosure
+  url: security/chefaa-vulnerability-disclosure.yml
+- type: Security
+  url: https://chefaa.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/chefaa-domain-security.yml
 - type: Website
   url: https://chefaa.com
+- type: DeveloperPortal
+  url: https://chefaa.com/eg-en/become-partner-pharmacy
+- type: Blog
+  url: https://chefaa.com/blog/
+- type: Support
+  url: https://chefaa.com/eg-en/contact-us
+- type: TermsOfService
+  url: https://chefaa.com/eg-en/page/terms-of-service
+- type: PrivacyPolicy
+  url: https://chefaa.com/eg-en/page/privacy-policy
+- type: SignUp
+  url: https://chefaa.com/eg-en
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
