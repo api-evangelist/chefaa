@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/chefaa/integrations
+- https://n8n.io/integrations/chefaa/
+- https://composio.dev/toolkits/chefaa
+- https://monid.ai/tools/chefaa
+checked:
+- https://composio.dev/toolkits/chefaa
+- https://monid.ai/tools/chefaa
+- https://n8n.io/integrations/chefaa/
+- https://zapier.com/apps/chefaa/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
